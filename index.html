@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>To-Do List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h2>To-Do List</h2>
+
+  <input id="taskInput" placeholder="Task"><br>
+  <input id="dateInput" type="datetime-local"><br>
+  <button onclick="addTask()">Add</button>
+
+  <div class="filters">
+    <button onclick="setFilter('all')">All</button>
+    <button onclick="setFilter('active')">Active</button>
+    <button onclick="setFilter('done')">Done</button>
+  </div>
+
+  <ul id="taskList"></ul>
+</div>
+  <script src="script.js"></script>
+
+</body>
+</html>
