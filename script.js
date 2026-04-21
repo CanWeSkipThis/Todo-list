@@ -1,4 +1,3 @@
-console.log("JS работает");
 let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
 let filter = "all";
 
